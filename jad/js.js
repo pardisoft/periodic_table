@@ -7,8 +7,9 @@ var table = new Vue({
         { id: 4, symbol: "Be",},
         { id: 11, symbol: "Na",},
         { id: 12, symbol: "Mg",},
-        { id: 9, symbol: "K"}
+        { id: 9, symbol: "K"},
+        
       ]
     }
   });
-  Resources
+  
