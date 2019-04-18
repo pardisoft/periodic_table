@@ -1,18 +1,16 @@
 table {
-    font-family: 'Open Sans', sans-serif;
-    width: 100px;
-    height: 100px;
-    border-collapse: collapse;
-    border: 3px solid #44475C;
-    margin: 50px 50px 0 50px;
-  }
+  font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+  width: 80px;
+  height: 80px;
+  border-collapse: collapse;
   
-  table td {
-    text-align: left;
-    padding: 30px;
-    border-right: 2px solid rgb(0, 0, 0);
-    border: 3px solid black;
-  }
-  table td{
-    border-right: black;
-  }
+  margin: 10px 10px 0 10px;
+}
+
+table td {
+  text-align: left;
+  padding: 8px;
+  text-align: center;
+  border: 3px solid black;
+}

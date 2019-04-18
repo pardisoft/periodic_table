@@ -2,21 +2,11 @@ var table = new Vue({
     el: '#table',
     data: {
       rows: [
-        { id: 1, symbol: "C",},
-        { id: 3, symbol: "Li",},
-        { id: 4, symbol: "Be",},
-        { id: 11, symbol: "Na",},
-        { id: 12, symbol: "Mg",},
-        { id: 9, symbol: "K"},
-        
-      ],
-      columns: [
-        { id2: 1, symbol2: "C",},
-        { id2: 3, symbol2: "Li",},
-        { id2: 4, symbol2: "Be",},
-        { id2: 11, symbol2: "Na",},
-        { id2: 12, symbol2: "Mg",},
-        { id2: 9, symbol2: "K"},
+        { e1: "Li", e2: "Be", e3: "B", e4: 'C',e5: "N", e6: "O", e7: "F", e8: 'Ne' },
+        { e1: "Fe", e2: "MG", e3: "Ai", e4: 'Si',e5: "P", e6: "S", e7: "Cl", e8: 'Ar' },
+        { e1: "Tf", e2: "Fg", e3: "Tr", e4: 'Br',e5: "C", e6: "K", e7: "Kr", e8: 'Xr' },
+        { e1: "D", e2: "V", e3: "Le", e4: 'XB',e5: "C", e6: "K", e7: "Kr", e8: 'Xr' },
+        { e1: "Tm", e2: "Bv", e3: "KM", e4: 'Lo',e5: "C", e6: "K", e7: "Kr", e8: 'Xr' }
       ]
     }
   });
