@@ -8,6 +8,8 @@ var table = new Vue({
         { id: 11, symbol: "Na",},
         { id: 12, symbol: "Mg",},
         { id: 9, symbol: "K"},
+        { id2: 9, symbol2: "K"}
+        
         
       ]
     }
