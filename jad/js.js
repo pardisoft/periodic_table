@@ -12,6 +12,11 @@ var table = new Vue({
       ],
       columns: [
         { id2: 1, symbol2: "C",},
+        { id2: 3, symbol2: "Li",},
+        { id2: 4, symbol2: "Be",},
+        { id2: 11, symbol2: "Na",},
+        { id2: 12, symbol2: "Mg",},
+        { id2: 9, symbol2: "K"},
       ]
     }
   });
