@@ -9,7 +9,7 @@ body {
   border: 3px solid black;
   text-align: center;
   margin: 10px 10px 0 10px;
-  position: relative; margin-left: 660px; margin-top: 100px;
+  position: relative; margin-left: 1537px; margin-top: 100px;
   background-color: royalblue;
 }
 #H {
@@ -25,13 +25,14 @@ body {
   background-color: lightgreen;
 }
 table {
+  float: left;
   font-family: 'Open Sans', sans-serif;
   font-size: 50px;
   width: 80px;
   height: 80px;
   border-collapse: collapse;
   
-  margin: 0px 10px 0 10px;
+  margin: 0px 0px 0 10px;
 }
 
 table td {
@@ -39,10 +40,26 @@ table td {
   padding: 8px;
   text-align: center;
   border: 3px solid black;
-}
-#table {
+} 
+#table2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+  width: 80px;
+  height: 80px;
+  border-collapse: collapse;
+  
+  margin: 0px 10px 0 10px;
+  position: relative; margin-left: 0px; margin-top: 75px;
 
 }
-#table2 {
+#table3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+  width: 80px;
+  height: 80px;
+  border-collapse: collapse;
+  
+  margin: 0px 0px 0 0px;
+  position: relative; margin-left: 885px; margin-top: -455px;
 
 }

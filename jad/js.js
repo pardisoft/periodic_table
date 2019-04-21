@@ -1,5 +1,5 @@
 var table = new Vue({
-    el: '#table2',
+    el: '#table3',
     data: {
       rows: [
         { e3: "B", e4: 'C',e5: "N", e6: "O", e7: "F", e8: 'Ne' },
@@ -22,6 +22,19 @@ var table = new Vue({
         { e1: "Rb", e2: "Sr"},
         { e1: "Cs", e2: "Ba"},
         { e1: "Fr", e2: "Ra"}
+      ]
+    }
+    
+  });
+  var table = new Vue({
+    el: '#table2',
+    data: {
+      rows: [
+        { e9: "Li", e10: "Be",e11: "uut", e12: 'Fl',e13: "Uup", e14: "Lv", e15: "uus", e16: 'Uuo', e17: "uus", e18: 'Uuo'},
+        { e9: "Li", e10: "Be",e11: "uut", e12: 'Fl',e13: "Uup", e14: "Lv", e15: "uus", e16: 'Uuo', e17: "uus", e18: 'Uuo'},
+        { e9: "Li", e10: "Be",e11: "uut", e12: 'Fl',e13: "Uup", e14: "Lv", e15: "uus", e16: 'Uuo', e17: "uus", e18: 'Uuo'},
+        { e9: "Li", e10: "Be",e11: "uut", e12: 'Fl',e13: "Uup", e14: "Lv", e15: "uus", e16: 'Uuo', e17: "uus", e18: 'Uuo'},
+        { e9: "Li", e10: "Be",e11: "uut", e12: 'Fl',e13: "Uup", e14: "Lv", e15: "uus", e16: 'Uuo', e17: "uus", e18: 'Uuo'}
       ]
     }
     
