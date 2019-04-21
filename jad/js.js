@@ -33,7 +33,6 @@ var table = new Vue({
         { e9: "Li", e10: "Be",e11: "uut", e12: 'Fl',e13: "Uup", e14: "Lv", e15: "uus", e16: 'Uuo', e17: "uus", e18: 'Uuo'},
         { e9: "Li", e10: "Be",e11: "uut", e12: 'Fl',e13: "Uup", e14: "Lv", e15: "uus", e16: 'Uuo', e17: "uus", e18: 'Uuo'},
         { e9: "Li", e10: "Be",e11: "uut", e12: 'Fl',e13: "Uup", e14: "Lv", e15: "uus", e16: 'Uuo', e17: "uus", e18: 'Uuo'},
-        { e9: "Li", e10: "Be",e11: "uut", e12: 'Fl',e13: "Uup", e14: "Lv", e15: "uus", e16: 'Uuo', e17: "uus", e18: 'Uuo'},
         { e9: "Li", e10: "Be",e11: "uut", e12: 'Fl',e13: "Uup", e14: "Lv", e15: "uus", e16: 'Uuo', e17: "uus", e18: 'Uuo'}
       ]
     }
