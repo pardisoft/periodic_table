@@ -13,21 +13,27 @@
         He
       </div>
 
-  <table id="table">
+  <table id="table" class="tr1">
     <tbody>
-      <tr v-for="row in rows">
+      <tr v-for="row in rows" >
         <td>{{row.e1}}</td>
           <td>{{row.e2}}</td>
-            <td>{{row.e3}}</td>
-             <td>{{row.e4}}</td>
-             <td>{{row.e5}}</td>
-             <td>{{row.e6}}</td>
-               <td>{{row.e7}}</td>
-                <td>{{row.e8}}</td>
         </tr>
           
    </tbody>
   </table>
+  <table id="table2" calss="tr2">
+      <tbody>
+        <tr v-for="row in rows" >
+            <td>{{row.e3}}</td>
+                 <td>{{row.e4}}</td>
+                 <td>{{row.e5}}</td>
+                 <td>{{row.e6}}</td>
+                   <td>{{row.e7}}</td>
+                    <td>{{row.e8}}</td>
+          </tr>
+        </tbody>
+      </table>
       <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
       <script  src="js.js"></script>
       
