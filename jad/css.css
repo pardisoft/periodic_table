@@ -9,7 +9,8 @@ body {
   border: 3px solid black;
   text-align: center;
   margin: 10px 10px 0 10px;
-  position: relative; margin-left: 660px; margin-top: 100px
+  position: relative; margin-left: 660px; margin-top: 100px;
+  background-color: royalblue;
 }
 #H {
   font-size: 50px;
@@ -21,6 +22,7 @@ body {
   border: 3px solid black;
   text-align: center;
   margin: 0px 10px 0 10px;
+  background-color: lightgreen;
 }
 table {
   font-family: 'Open Sans', sans-serif;
