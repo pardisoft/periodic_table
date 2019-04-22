@@ -9,7 +9,7 @@ body {
   border: 3px solid black;
   text-align: center;
   margin: 10px 10px 0 10px;
-  position: relative; margin-left: 1555px; margin-top: 100px;
+  position: relative; margin-left: 1563px; margin-top: 100px;
   background-color: royalblue;
 }
 #H {
@@ -58,8 +58,18 @@ table td {
   width: 80px;
   height: 80px;
   border-collapse: collapse;
-  
+  text-align: center;
   margin: 0px 0px 0 0px;
   position: relative; margin-left: 1090px; margin-top: -465px;
 
+}
+#table4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+  width: 80px;
+  height: 80px;
+  border-collapse: collapse;
+  text-align: center;
+  margin: 0px 10px 0 10px;
+   margin-left: 195px; margin-top: 20px;
 }
