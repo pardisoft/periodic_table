@@ -30,10 +30,10 @@ var table = new Vue({
     el: '#table2',
     data: {
       rows: [
-        { e9: "Li", e10: "Be",e11: "uut", e12: 'Fl',e13: "Uup", e14: "Lv", e15: "uus", e16: 'Uuo', e17: "uus", e18: 'Uuo'},
-        { e9: "Li", e10: "Be",e11: "uut", e12: 'Fl',e13: "Uup", e14: "Lv", e15: "uus", e16: 'Uuo', e17: "uus", e18: 'Uuo'},
-        { e9: "Li", e10: "Be",e11: "uut", e12: 'Fl',e13: "Uup", e14: "Lv", e15: "uus", e16: 'Uuo', e17: "uus", e18: 'Uuo'},
-        { e9: "Li", e10: "Be",e11: "uut", e12: 'Fl',e13: "Uup", e14: "Lv", e15: "uus", e16: 'Uuo', e17: "uus", e18: 'Uuo'}
+        { e9: "Sc", e10: "Ti",e11: "V", e12: 'Cr',e13: "Mn", e14: "Fe", e15: "Co", e16: 'Ni', e17: "Cu", e18: 'Zn'},
+        { e9: "Y", e10: "Zr",e11: "Nb", e12: 'Mo',e13: "Tc", e14: "Ru", e15: "Rh", e16: 'Pd', e17: "Ag", e18: 'Cd'},
+        { e9: "  ", e10: "Hf",e11: "Ta", e12: 'W',e13: "Re", e14: "Os", e15: "Ir", e16: 'Pt', e17: "Au", e18: 'Hg'},
+        { e9: "  ", e10: " Rf ",e11: "Db", e12: 'Sg',e13: "Bh", e14: "Hs", e15: "Mt", e16: 'Ds', e17: "Rg", e18: 'Cn'}
       ]
     }
     
@@ -42,8 +42,8 @@ var table = new Vue({
     el: '#table4',
     data: {
       rows: [
-        { e19: "Li", e20: "Be",e21: "uut", e22: 'Fl',e23: "Uup", e24: "Lv", e25: "uus", e26: 'Uuo', e27: "uus", e28: 'Uuo', e29: "Lv", e30: "uus", e31: 'Uuo', e32: "uus", e33: 'Uuo'},
-        { e19: "Li", e20: "Be",e21: "uut", e22: 'Fl',e23: "Uup", e24: "Lv", e25: "uus", e26: 'Uuo', e27: "uus", e28: 'Uuo', e29: "Lv", e30: "uus", e31: 'Uuo', e32: "uus", e33: 'Uuo'}
+        { e19: "La", e20: "Ce",e21: "Pr", e22: 'Nd',e23: "Pm", e24: "Sm", e25: "Eu", e26: 'Gd', e27: "Tb", e28: 'Dy', e29: "Ho", e30: "Er", e31: 'Tm', e32: "Yb", e33: 'Lu'},
+        { e19: "Ac", e20: "Th",e21: "Pa", e22: 'U',e23: "Np", e24: "Pu", e25: "Am", e26: 'Cm', e27: "Bk", e28: 'Cf', e29: 'Es', e30: "Fm", e31: 'Md', e32: "No", e33: 'Lr'}
       ]
     }
     
