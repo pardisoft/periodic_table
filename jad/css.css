@@ -1,6 +1,11 @@
+
+
 body {
   overflow: auto;
 }
+@media screen and
+  (max-width: 800px){
+
 #He {
   font-size: 50px;
   border-collapse: collapse;
@@ -12,6 +17,11 @@ body {
   position: relative; margin-left: 1520px; margin-top: 100px;
   background-color: royalblue;
 }
+  }
+  @media screen and
+  (max-width: 800px){
+
+    
 #H {
   font-size: 50px;
   display: inline-flex;
@@ -24,6 +34,10 @@ body {
   margin: 0px 10px 0 10px;
   background-color: lightgreen;
 }
+  }
+  @media screen and
+  (max-width: 800px){
+
 table {
   float: left;
   table-layout: fixed;
@@ -34,13 +48,18 @@ table {
   
   margin: 0px 0px 0 10px;
 }
-
+  }
+  @media screen and
+  (max-width: 800px){
 table td {
   text-align: left;
   padding: 8px;
   text-align: center;
   border: 3px solid black;
 } 
+  }
+  @media screen and
+  (max-width: 800px){
 #table2 {
   table-layout: fixed;
   font-family: 'Open Sans', sans-serif;
@@ -53,6 +72,9 @@ table td {
    margin-left: 0.45px; margin-top: 142px;
 
 }
+  }
+  @media screen and
+  (max-width: 800px){
 #table3 {
   table-layout: fixed;
   font-family: 'Open Sans', sans-serif;
@@ -61,9 +83,12 @@ table td {
   border-collapse: collapse;
   text-align: center;
   margin: 0px 0px 0 0px;
-  position: sticky;  margin-left: 1070px; margin-top: -429px;
+  margin-left: 1070px; margin-top: -429px;
 
 }
+  }
+  @media screen and
+  (max-width: 800px){
 #table4 {
   table-layout: fixed;
   font-family: 'Open Sans', sans-serif;
@@ -75,3 +100,4 @@ table td {
   margin: 0px 10px 0 10px;
    margin-left: 181px; margin-top: 25px;
 }
+  } 
