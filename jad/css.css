@@ -28,9 +28,8 @@ table {
   float: left;
   table-layout: fixed;
   font-family: 'Open Sans', sans-serif;
-  font-size: 45px;
+  font-size: 285%;
   width: 9%;
-  height: 80px;
   border-collapse: collapse;
   
   margin: 0px 0px 0 10px;
@@ -57,13 +56,12 @@ table td {
 #table3 {
   table-layout: fixed;
   font-family: 'Open Sans', sans-serif;
-  font-size: 45px;
+  font-size: 285%;
   width: 28.5%;
-  height: 80px;
   border-collapse: collapse;
   text-align: center;
   margin: 0px 0px 0 0px;
-  position: relative; margin-left: 1070px; margin-top: -429px;
+  position: sticky;  margin-left: 1070px; margin-top: -429px;
 
 }
 #table4 {
