@@ -30,10 +30,10 @@ var table = new Vue({
     el: '#table2',
     data: {
       rows: [
-        { e9: "Sc", e10: "Ti",e11: "V", e12: 'Cr',e13: "Mn", e14: "Fe", e15: "Co", e16: 'Ni', e17: "Cu", e18: 'Zn'},
-        { e9: "Y", e10: "Zr",e11: "Nb", e12: 'Mo',e13: "Tc", e14: "Ru", e15: "Rh", e16: 'Pd', e17: "Ag", e18: 'Cd'},
-        { e9: "  ", e10: "Hf",e11: "Ta", e12: 'W',e13: "Re", e14: "Os", e15: "Ir", e16: 'Pt', e17: "Au", e18: 'Hg'},
-        { e9: "  ", e10: " Rf ",e11: "Db", e12: 'Sg',e13: "Bh", e14: "Hs", e15: "Mt", e16: 'Ds', e17: "Rg", e18: 'Cn'}
+        { e9: { title: "Sc", color: "#F00" }, e10: "Ti",e11: "V", e12: 'Cr',e13: "Mn", e14: "Fe", e15: "Co", e16: 'Ni', e17: "Cu", e18: 'Zn'},
+        { e9: { title: "Y", color: "#FF0" }, e10: "Zr",e11: "Nb", e12: 'Mo',e13: "Tc", e14: "Ru", e15: "Rh", e16: 'Pd', e17: "Ag", e18: 'Cd'},
+        { e9: { title: "", color: "" }, e10: "Hf",e11: "Ta", e12: 'W',e13: "Re", e14: "Os", e15: "Ir", e16: 'Pt', e17: "Au", e18: 'Hg'},
+        { e9: { title: "", color: "" }, e10: " Rf ",e11: "Db", e12: 'Sg',e13: "Bh", e14: "Hs", e15: "Mt", e16: 'Ds', e17: "Rg", e18: 'Cn'}
       ]
     }
     
