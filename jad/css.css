@@ -11,7 +11,7 @@ body {
   text-align: center;
   margin: 10px 10px 0 10px;
   position: relative; margin-left: 1520px; margin-top: 100px;
-  background-color: royalblue;
+  background-color: rgb(132, 0, 255);
 }
 #H {
   font-size: 50px;
@@ -26,6 +26,7 @@ body {
   background-color: lightgreen;
 }
 table {
+  background-color: darkred;
   float: left;
   table-layout: fixed;
   font-family: 'Open Sans', sans-serif;
@@ -43,6 +44,7 @@ table td {
   border: 3px solid black;
 } 
 #table2 {
+  background-color: rgb(255, 187, 0);
   table-layout: fixed;
   font-family: 'Open Sans', sans-serif;
   font-size: 45px;
@@ -55,6 +57,7 @@ table td {
 
 }
 #table3 {
+  background-color: darkcyan;
   table-layout: fixed;
   font-family: 'Open Sans', sans-serif;
   font-size: 285%;
@@ -66,6 +69,7 @@ table td {
 
 }
 #table4 {
+  background-color: peru;
   table-layout: fixed;
   font-family: 'Open Sans', sans-serif;
   font-size: 45px;
@@ -75,4 +79,16 @@ table td {
   text-align: center;
   margin: 0px 10px 0 10px;
    margin-left: 181px; margin-top: 25px;
+}
+#e2{
+  background-color: darkorange;
+}
+#e8{
+  background-color: rgb(132, 0, 255);
+}
+#e3{
+  background-color: rgb(251, 255, 0);
+}
+#e7{
+  background-color: rgb(0, 38, 255);
 }
