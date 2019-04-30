@@ -2,12 +2,12 @@ var table = new Vue({
     el: '#table3',
     data: {
       rows: [
-        { e3: "B", e4: 'C',e5: "N", e6: "O", e7: "F", e8: 'Ne' },
-        { e3: "Ai", e4: 'Si',e5: "P", e6: "S", e7: "Cl", e8: 'Ar' },
-        { e3: "Ga", e4: 'Ge',e5: "As", e6: "Se", e7: "Br", e8: 'Kr' },
-        {e3: "In", e4: 'Sn',e5: "Sb", e6: "Te", e7: "I", e8: 'Xe' },
-        {e3: "Tl", e4: 'Pb',e5: "Bi", e6: "Po", e7: "At", e8: 'Rn' },
-        { e3: "uut", e4: 'Fl',e5: "Uup", e6: "Lv", e7: "Uus", e8: 'Uuo' }
+        { e3: { title: "B", color: " rgb(0, 255, 64)" }, e4: 'C',e5: "N", e6: "O", e7: "F", e8: 'Ne' },
+        { e3: { title: "Ai", color: " rgb(251, 255, 0)" }, e4: 'Si',e5: "P", e6: "S", e7: "Cl", e8: 'Ar' },
+        { e3: { title: "Ga", color: " rgb(251, 255, 0)" }, e4: 'Ge',e5: "As", e6: "Se", e7: "Br", e8: 'Kr' },
+        {e3: { title: "In", color: " rgb(251, 255, 0)" }, e4: 'Sn',e5: "Sb", e6: "Te", e7: "I", e8: 'Xe' },
+        {e3: { title: "Tl", color: " rgb(251, 255, 0)" }, e4: 'Pb',e5: "Bi", e6: "Po", e7: "At", e8: 'Rn' },
+        { e3: { title: "Uut", color: "grey" }, e4: 'Fl',e5: "Uup", e6: "Lv", e7: "Uus", e8: 'Uuo' }
       ]
     }
     
@@ -30,10 +30,10 @@ var table = new Vue({
     el: '#table2',
     data: {
       rows: [
-        { e9: { title: "Sc", color: "#F00" }, e10: "Ti",e11: "V", e12: 'Cr',e13: "Mn", e14: "Fe", e15: "Co", e16: 'Ni', e17: "Cu", e18: 'Zn'},
-        { e9: { title: "Y", color: "#FF0" }, e10: "Zr",e11: "Nb", e12: 'Mo',e13: "Tc", e14: "Ru", e15: "Rh", e16: 'Pd', e17: "Ag", e18: 'Cd'},
-        { e9: { title: "", color: "" }, e10: "Hf",e11: "Ta", e12: 'W',e13: "Re", e14: "Os", e15: "Ir", e16: 'Pt', e17: "Au", e18: 'Hg'},
-        { e9: { title: "", color: "" }, e10: " Rf ",e11: "Db", e12: 'Sg',e13: "Bh", e14: "Hs", e15: "Mt", e16: 'Ds', e17: "Rg", e18: 'Cn'}
+        { e9: { title: "Sc", color: "#F00" }, e10: "Ti",e11: "V", e12: 'Cr',e13: "Mn", e14: "Fe", e15: { title: "Co", color: " rgb(255, 187, 0)" }, e16: { title: "Ni", color: " rgb(255, 187, 0)" }, e17: { title: "Cu", color: " rgb(255, 187, 0)" }, e18: 'Zn'},
+        { e9: { title: "Y", color: "#FF0" }, e10: "Zr",e11: "Nb", e12: 'Mo',e13: "Tc", e14: "Ru", e15: { title: "Rh", color: " rgb(255, 187, 0)" }, e16: { title: "Pd", color: " rgb(255, 187, 0)" }, e17: { title: "Ag", color: " rgb(255, 187, 0)" }, e18: 'Cd'},
+        { e9: { title: "", color: "brown" }, e10: "Hf",e11: "Ta", e12: 'W',e13: "Re", e14: "Os", e15: { title: "Ir", color: " rgb(255, 187, 0)" }, e16: { title: "Pt", color: " rgb(255, 187, 0)" }, e17: { title: "Au", color: " rgb(255, 187, 0)" }, e18: 'Hg'},
+        { e9: { title: "", color: "grey" }, e10: " Rf ",e11: "Db", e12: 'Sg',e13: "Bh", e14: "Hs", e15: { title: "Mt", color: "grey" }, e16: { title: "Ds", color: "grey" }, e17: { title: "Rg", color: "grey" }, e18: 'Cn'}
       ]
     }
     

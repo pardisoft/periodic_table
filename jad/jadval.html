@@ -32,9 +32,9 @@
             <td>{{row.e12}}</td>
             <td>{{row.e13}}</td>
             <td>{{row.e14}}</td>
-            <td>{{row.e15}}</td>
-            <td>{{row.e16}}</td>
-            <td>{{row.e17}}</td>
+            <td v-bind:style="'background-color:' + row.e15.color"> {{ row.e15.title }} </td>
+            <td v-bind:style="'background-color:' + row.e16.color"> {{ row.e16.title }} </td>
+            <td v-bind:style="'background-color:' + row.e17.color"> {{ row.e17.title }} </td>
             <td>{{row.e18}}</td>
           </tr>
         </tbody>
@@ -42,7 +42,7 @@
   <table id="table3">
       <tbody>
         <tr v-for="row in rows" >
-            <td id="e3">{{row.e3}}</td>
+          <td v-bind:style="'background-color:' + row.e3.color"> {{ row.e3.title }} </td>
                  <td>{{row.e4}}</td>
                  <td>{{row.e5}}</td>
                  <td>{{row.e6}}</td>
