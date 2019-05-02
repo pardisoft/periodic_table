@@ -30,8 +30,8 @@ var table = new Vue({
     el: '#table2',
     data: {
       rows: [
-        { e9: { title: "Sc", color: "rgb(255, 187, 0)" }, e10: "Ti",e11: "V", e12: 'Cr',e13: "Mn", e14: "Fe", e15: { title: "Co", color: " rgb(255, 187, 0)" }, e16: { title: "Ni", color: " rgb(255, 187, 0)" }, e17: { title: "Cu", color: " rgb(255, 187, 0)" }, e18: 'Zn'},
-        { e9: { title: "Y", color: "rgb(255, 187, 0)" }, e10: "Zr",e11: "Nb", e12: 'Mo',e13: "Tc", e14: "Ru", e15: { title: "Rh", color: " rgb(255, 187, 0)" }, e16: { title: "Pd", color: " rgb(255, 187, 0)" }, e17: { title: "Ag", color: " rgb(255, 187, 0)" }, e18: 'Cd'},
+        { e9: { title: "Sc,21", color: "rgb(255, 187, 0)" }, e10: "Ti",e11: "V", e12: 'Cr',e13: "Mn", e14: "Fe", e15: { title: "Co", color: " rgb(255, 187, 0)" }, e16: { title: "Ni", color: " rgb(255, 187, 0)" }, e17: { title: "Cu", color: " rgb(255, 187, 0)" }, e18: 'Zn'},
+        { e9: { title: "Y,23", color: "rgb(255, 187, 0)" }, e10: "Zr",e11: "Nb", e12: 'Mo',e13: "Tc", e14: "Ru", e15: { title: "Rh", color: " rgb(255, 187, 0)" }, e16: { title: "Pd", color: " rgb(255, 187, 0)" }, e17: { title: "Ag", color: " rgb(255, 187, 0)" }, e18: 'Cd'},
         { e9: { title: "", color: "peru" }, e10: "Hf",e11: "Ta", e12: 'W',e13: "Re", e14: "Os", e15: { title: "Ir", color: " rgb(255, 187, 0)" }, e16: { title: "Pt", color: " rgb(255, 187, 0)" }, e17: { title: "Au", color: " rgb(255, 187, 0)" }, e18: 'Hg'},
         { e9: { title: "", color: "grey" }, e10: " Rf ",e11: "Db", e12: 'Sg',e13: "Bh", e14: "Hs", e15: { title: "Mt", color: "grey" }, e16: { title: "Ds", color: "grey" }, e17: { title: "Rg", color: "grey" }, e18: 'Cn'}
       ]
