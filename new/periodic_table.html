@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"> 
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="app">
+            <table id="table">
+                <tbody>
+                    <tr class="row" v-for="y in 7" >
+                        <td :style="'background-color:' + getElementTypeColor(x,y)" class="element-box" :class="{'element-box-border' : getElement(x,y)}" v-for="x in 18">
+                            <div class="element-symbol">
+                                {{ getElementSymbol(x,y) }}
+                            </div>
+                            <div class="element-name">
+                                {{ getElementName(x,y) }}
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
+    <script  src="app.js"></script>
+</html>
