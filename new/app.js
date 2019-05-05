@@ -1,7 +1,71 @@
-var table = new Vue({  
+new Vue({  
     el:'#app',
+    methods: {
+        getElement(x, y) {
+            const result = this.elements.find((element) => {
+                return element.row == y && element.col == x;
+            });
+            return result;
+        },
+        getElementSymbol(x, y) {
+            const element = this.getElement(x,y);
+            if (element !== undefined) {
+                return element.symbol;
+            }
+        },
+        getElementName(x, y) {
+            const element = this.getElement(x,y);
+            if (element !== undefined) {
+                return element.name;
+            }
+        },
+        getElementColor(x, y) {
+            const element = this.getElement(x,y);
+            if (element !== undefined) {
+                return element.color;
+            }
+        },
+        getElementTypeId(x, y) {
+            const element = this.getElement(x,y);
+            if (element !== undefined) {
+                return element.type;
+            }
+        },
+        openElementPopup(x, y) {
+            const element = this.getElement(x,y);
+            if (element !== undefined) {
+                alert("My name is: " + element.name);
+            }
+        },
+        getType(id) {
+            const type = this.types.find((type) => {
+                return type.id == id;
+            });
+            return type;
+        },
+        getElementTypeColor(x,y ) {
+            const element = this.getElement(x,y);
+            if (element !== undefined) {
+                const typeId = this.getElementTypeId(x, y);
+                const type = this.getType(typeId);
+                if (type !== undefined) {
+                    return type.color;
+                }
+            }
+        },
+        getElementTypeName(x, y) {
+            const element = this.getElement(x,y);
+            if (element !== undefined) {
+                const typeId = this.getElementTypeId(x, y);
+                const type = this.getType(typeId);
+                if (type !== undefined) {
+                    return type.name;
+                }
+            }
+        },
+    },
     data:{  
-        elements: [
+        elements : [
             {
                 symbol:"H",
                 name:"Hydrogen",
@@ -87,21 +151,62 @@ var table = new Vue({
                 type: 5,
             },
             {
-                symbol:"Og",
-                name:"Oganesson",
-                row:7,
-                col:18,
-                type: 10,
+                symbol:"Al",
+                name:"Aluminium",
+                row:3,
+                col:13,
+                type: 9,
             },
             {
-                symbol:"Os",
-                name:"Osmium",
-                row:6,
-                col:8,
-                type: 8,
+                symbol:"Si",
+                name:"Silicon",
+                row:3,
+                col:14,
+                type: 3,
             },
+            {
+                symbol:"P",
+                name:"Phosphorus",
+                row:3,
+                col:15,
+                type: 1,
+            },
+            {
+                symbol:"S",
+                name:"Sulfor",
+                row:3,
+                col:16,
+                type: 1,
+            },
+            {
+                symbol:"Cl",
+                name:"Chlorine",
+                row:3,
+                col:17,
+                type: 1,
+            },
+            {
+                symbol:"Ar",
+                name:"Argon",
+                row:3,
+                col:18,
+                type: 2,
+            },
+            // {
+            //     symbol:"Og",
+            //     name:"Oganesson",
+            //     row:7,
+            //     col:18,
+            //     type: 10,
+            // },
+            // {
+            //     symbol:"Os",
+            //     name:"Osmium",
+            //     row:6,
+            //     col:8,
+            //     type: 8,
+            // },
         ],
-
         types: [
             {
                 id: 1,
@@ -154,63 +259,5 @@ var table = new Vue({
                 color: '#DDDDDD'
             },
         ]
-    },
-    methods: {
-        getElement(x, y) {
-            const result = this.elements.find((element) => {
-                return element.row == y && element.col == x;
-            });
-            return result;
-        },
-        getElementSymbol(x, y) {
-            const element = this.getElement(x,y);
-            if (element !== undefined) {
-                return element.symbol;
-            }
-        },
-        getElementName(x, y) {
-            const element = this.getElement(x,y);
-            if (element !== undefined) {
-                return element.name;
-            }
-        },
-        getElementColor(x, y) {
-            const element = this.getElement(x,y);
-            if (element !== undefined) {
-                return element.color;
-            }
-        },
-        getElementTypeId(x, y) {
-            const element = this.getElement(x,y);
-            if (element !== undefined) {
-                return element.type;
-            }
-        },
-        getType(id) {
-            const type = this.types.find((type) => {
-                return type.id == id;
-            });
-            return type;
-        },
-        getElementTypeColor(x,y ) {
-            const element = this.getElement(x,y);
-            if (element !== undefined) {
-                const typeId = this.getElementTypeId(x, y);
-                const type = this.getType(typeId);
-                if (type !== undefined) {
-                    return type.color;
-                }
-            }
-        },
-        getElementTypeName(x, y) {
-            const element = this.getElement(x,y);
-            if (element !== undefined) {
-                const typeId = this.getElementTypeId(x, y);
-                const type = this.getType(typeId);
-                if (type !== undefined) {
-                    return type.name;
-                }
-            }
-        },
     },
 });
